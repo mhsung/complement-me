@@ -13,7 +13,7 @@
 }
 ```
 
-* Refer to ![PointNet](https://github.com/charlesq34/pointnet) for details of PointNet.
+* Refer to ![PointNet](https://github.com/charlesq34/pointnet) for details of the PointNet architecture.
 * 'utils/tf_util.py' file is from the PointNet repository.
 * Tested with TensorFlow version 1.0.1 and NumPy version 1.13.1.
 * Released under the MIT License.
