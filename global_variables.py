@@ -14,15 +14,9 @@ BASE_DIR = os.path.normpath(
 g_shape_synset = os.environ['synset']
 
 
-# Root directories.
+### SET DATA ROOT DIRECTORY ###
 g_data_root_dir = ''
 g_synset_data_dir = os.path.join(g_data_root_dir, g_shape_synset)
-
-
-# Executales
-g_renderer = '/orions3-zfs/projects/minhyuk/app/libigl-renderer/build/OSMesaRenderer'
-g_mesh_merger = '/orions3-zfs/projects/minhyuk/app/libigl-mesh-merger/build/OSMesaRenderer'
-
 
 # Group directories.
 g_group_mesh_root_dir = os.path.abspath(os.path.join(g_synset_data_dir,\
@@ -31,9 +25,9 @@ g_group_centered_mesh_root_dir = os.path.abspath(os.path.join(g_synset_data_dir,
         'group', 'group_centered_mesh'))
 
 g_group_points_root_dir = os.path.abspath(os.path.join(g_synset_data_dir,\
-        'group', 'group_points_1024'))
+        'group', 'group_points'))
 g_group_centered_points_root_dir = os.path.abspath(os.path.join(g_synset_data_dir,\
-        'group', 'group_centered_points_1024'))
+        'group', 'group_centered_points'))
 g_group_position_root_dir = os.path.abspath(os.path.join(g_synset_data_dir,\
         'group', 'group_position'))
 

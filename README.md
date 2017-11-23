@@ -13,3 +13,5 @@
 }
 ```
 
+* Refer to ![PointNet](https://github.com/charlesq34/pointnet) for details of PointNet. Specifically, 'utils/tf_util.py' files is from the PointNet repository.
+* The code is tested with TensorFlow version 1.0.1 and NumPy version 1.13.1.
