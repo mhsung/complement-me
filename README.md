@@ -1,6 +1,6 @@
 ## ComplementMe: Weakly-Supervised Component Suggestions for 3D Modeling
 
-<a href="http://cs.stanford.edu/~mhsung" target="_blank">Minhyuk Sung</a>, <a href="http://ai.stanford.edu/~haosu/" target="_blank">Hao Su</a>, <a href="http://vova.kim" target="_blank">Vladimir G. Kim</a>, <a href="https://www.cse.iitb.ac.in/~sidch/" target="_blank">Siddhartha Chaudhuri</a>, and <a href="https://geometry.stanford.edu/member/guibas/" target="_blank:">Leonidas Guibas</a><br>
+[Minhyuk Sung](http://mhsung.github.io), [Hao Su](http://ai.stanford.edu/~haosu/), [Vladimir G. Kim](http://vova.kim), [Siddhartha Chaudhuri](https://www.cse.iitb.ac.in/~sidch/), and [Leonidas Guibas](https://geometry.stanford.edu/member/guibas/)<br>
 Siggraph Asia 2017<br>
 [[Project]](https://mhsung.github.io/component-assembly.html) | [[arXiv]](https://arxiv.org/abs/1708.01841)
 
