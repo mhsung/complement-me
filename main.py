@@ -48,9 +48,6 @@ gflags.DEFINE_integer('n_epochs', 2000, '')
 gflags.DEFINE_integer('batch_size', 32, '')
 gflags.DEFINE_integer('snapshot_epoch', 100, '')
 
-gflags.DEFINE_bool('test_single_target', False, '')
-gflags.DEFINE_bool('test_single_given', False, '')
-
 
 def print_params():
     print('==== PARAMS ====')
@@ -93,11 +90,8 @@ if __name__ == '__main__':
     np.random.seed(0)
     random.seed(0)
 
-    train_data = Dataset(g_group_train_pairs_file, FLAGS.batch_size,
-            FLAGS.D, single_target=False)
-    test_data = Dataset(g_group_test_pairs_file, FLAGS.batch_size, FLAGS.D,
-            single_target=FLAGS.test_single_target,
-            single_given=FLAGS.test_single_given)
+    train_data = Dataset(g_group_train_pairs_file, FLAGS.batch_size, FLAGS.D)
+    test_data = Dataset(g_group_test_pairs_file, FLAGS.batch_size, FLAGS.D)
 
     print_params()
 
