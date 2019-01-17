@@ -11,7 +11,7 @@ Siggraph Asia 2017<br>
 @article{Sung:2017,
   author = {Sung, Minhyuk and Su, Hao, and Kim, Vladimir G. and Chaudhuri, Siddhartha
     and Guibas, Leonidas},
-  title = {ComplementMe: Weakly-Supervised Component Suggestions for 3D Modeling},
+  title = {{ComplementMe}: Weakly-Supervised Component Suggestions for 3D Modeling},
   Journal = {ACM Transactions on Graphics (Proc. of SIGGRAPH Asia)}, 
   year = {2017}
 }
