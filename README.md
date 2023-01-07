@@ -21,7 +21,7 @@ Siggraph Asia 2017<br>
 ComplementMe is a neural network framework for suggesting complementary components and their placement for an incomplete 3D part assembly. The component retrieval is performed by two neural networks called *embedding* and *retrieval* networks; the first indexes parts by mapping them to a low-dimensional feature space, and the second maps partial assemblies to appropriate complements. These two networks are *jointly* trained on *unlabeled* data obtained from public online repositories without relying on consistent part segmentations or labels. The retrieval network predicts a *probability distribution* over the space of part embeddings to deal with ambiguities of the multiple complementary components. The placement is performed by a separate network called *placement* network, which predicts a coordinates of the newly added component.
 
 ### Data download
-The ShapeNet model component and semantic part data are available on our [project website](https://mhsung.github.io/complement-me.html).
+The ShapeNet model component and semantic part data are available on our [project website]([https://mhsung.github.io/complement-me.html](https://mhsung.github.io/publications/complement-me)).
 
 ### Requirements
 - Numpy (tested with ver. 1.13.1)
