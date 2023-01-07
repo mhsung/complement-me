@@ -2,9 +2,9 @@
 
 [Minhyuk Sung](http://mhsung.github.io), [Hao Su](http://ai.stanford.edu/~haosu/), [Vladimir G. Kim](http://vova.kim), [Siddhartha Chaudhuri](https://www.cse.iitb.ac.in/~sidch/), and [Leonidas Guibas](https://geometry.stanford.edu/member/guibas/)<br>
 Siggraph Asia 2017<br>
-[[Project]](https://mhsung.github.io/complement-me.html) | [[arXiv]](https://arxiv.org/abs/1708.01841)
+[[Project]](https://mhsung.github.io/publications/complement-me) | [[arXiv]](https://arxiv.org/abs/1708.01841)
 
-![teaser](https://mhsung.github.io/assets/images/complement-me/teaser.png)
+![teaser](https://mhsung.github.io/assets/images/complement-me-teaser.png)
 
 ### Citation
 ```
